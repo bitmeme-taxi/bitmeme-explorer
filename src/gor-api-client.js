@@ -1,4 +1,4 @@
-const API_BASE = "http://192.168.1.125:8000/"
+const API_BASE = "https://api.bitmeme.world/"
 
 export async function getBlock(hash) {
     const res = await fetch(`${API_BASE}blocks/${hash}`, { headers: { 'Access-Control-Allow-Origin': '*' } })

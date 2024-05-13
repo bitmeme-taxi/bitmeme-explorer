@@ -9,7 +9,7 @@ const KaspadInfoBox = () => {
     const [data, setData] = useState({});
 
     async function updateData() {
-        await fetch('http://192.168.1.125:8000/info/kaspad')
+        await fetch('https://api.bitmeme.world/info/kaspad')
             .then((response) => response.json())
             .then(d => setData(d))
             .catch(err => console.log("Error", err))
