@@ -1,4 +1,4 @@
-# GBTM EXPLORER
+# BTM EXPLORER
 
 This is the source code for Bitmeme Explorer [https://explorer.bitmeme.world](https://explorer.bitmeme.world) written in JS with React.JS library.
 
