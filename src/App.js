@@ -217,7 +217,7 @@ function App() {
                       <Link className="blockinfo-link ms-3" to="/addresses/btm:qqkqkzjvr7zwxxmjxjkmxxdwju9kjs6e9u82uh59z07vgaks6gg62v8707g73"><BiDonateHeart size="1.3rem" /></Link>
                     </OverlayTrigger>
                     <OverlayTrigger placement="right" overlay={<Tooltip id="github">REST-API server</Tooltip>}>
-                      <a className="blockinfo-link ms-3" href="https://bitmeme.world/" target="_blank"><SiFastapi size="1.3rem" /></a>
+                      <a className="blockinfo-link ms-3" href="https://api.bitmeme.world/" target="_blank"><SiFastapi size="1.3rem" /></a>
                     </OverlayTrigger>
                   </span>
                   <span className="px-3 build">|</span>
